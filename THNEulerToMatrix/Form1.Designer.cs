@@ -46,20 +46,23 @@
             this.TextBoxX.Name = "TextBoxX";
             this.TextBoxX.Size = new System.Drawing.Size(100, 20);
             this.TextBoxX.TabIndex = 0;
+            this.TextBoxX.Text = "0";
             // 
             // TextBoxZ
             // 
             this.TextBoxZ.Location = new System.Drawing.Point(225, 28);
             this.TextBoxZ.Name = "TextBoxZ";
             this.TextBoxZ.Size = new System.Drawing.Size(100, 20);
-            this.TextBoxZ.TabIndex = 1;
+            this.TextBoxZ.TabIndex = 2;
+            this.TextBoxZ.Text = "0";
             // 
             // TextBoxY
             // 
             this.TextBoxY.Location = new System.Drawing.Point(119, 28);
             this.TextBoxY.Name = "TextBoxY";
             this.TextBoxY.Size = new System.Drawing.Size(100, 20);
-            this.TextBoxY.TabIndex = 2;
+            this.TextBoxY.TabIndex = 1;
+            this.TextBoxY.Text = "0";
             // 
             // label1
             // 
@@ -95,14 +98,14 @@
             this.TextBoxResult.Multiline = true;
             this.TextBoxResult.Name = "TextBoxResult";
             this.TextBoxResult.Size = new System.Drawing.Size(399, 55);
-            this.TextBoxResult.TabIndex = 6;
+            this.TextBoxResult.TabIndex = 5;
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(331, 26);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 8;
+            this.button1.TabIndex = 4;
             this.button1.Text = "Calculate";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);

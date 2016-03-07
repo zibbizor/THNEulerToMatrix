@@ -46,9 +46,9 @@ namespace THNEulerToMatrix
 
         private void button1_Click(object sender, EventArgs e)
         {            
-            float EulerX = float.Parse(TextBoxX.Text);
-            float EulerY = float.Parse(TextBoxY.Text);
-            float EulerZ = float.Parse(TextBoxZ.Text);
+            float EulerX = String.IsNullOrEmpty(TextBoxX.Text) ? 0 : float.Parse(TextBoxX.Text);
+            float EulerY = String.IsNullOrEmpty(TextBoxX.Text) ? 0 : float.Parse(TextBoxY.Text);
+            float EulerZ = String.IsNullOrEmpty(TextBoxX.Text) ? 0 : float.Parse(TextBoxZ.Text);
 
             // X = pitch, Y = yaw, Z = roll,  
             Quaternion q = CreateFromYawPitchRoll(DegreeToRadian(EulerY), DegreeToRadian(EulerX), DegreeToRadian(EulerZ));           
